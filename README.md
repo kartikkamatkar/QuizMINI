@@ -85,19 +85,21 @@ Add sample questions to the `miniquestion` table before starting the quiz.
 ## Screenshots
 
 ### Login Page
+![Login Page](./Login.png)
 
 
 
 ### Login Successful
 
-
+![Login Successful](./loginsuccess.png)
 
 ### Quiz Questions
 
-
+![Quiz Questions](./question.png)
 
 ### Quiz Completed
 
+![Quiz Completed](./completion.png)
 
 
 ## What I Learned
