@@ -50,7 +50,6 @@ public class Login extends JFrame {
         String password = new String(passwordField.getPassword());
 
         String sql = "SELECT * FROM users WHERE username = ? AND password = ?";
-
         try (Connection con = DBConnector.getConnection();
              PreparedStatement ps = con.prepareStatement(sql)) {
 
@@ -60,6 +59,8 @@ public class Login extends JFrame {
             try (ResultSet rs = ps.executeQuery()) {
                 if (rs.next()) {
                     JOptionPane.showMessageDialog(this, "Login successful!");
+                    dispose();
+                    new Quiz();
                 } else {
                     JOptionPane.showMessageDialog(this,
                             "Invalid username or password!");
