@@ -1,6 +1,6 @@
 # Quiz Management System
 
-A simple desktop-based Quiz Management System built using Java Swing, JDBC, and PostgreSQL. This project was developed as a college mini project to practice Java programming, database connectivity, and GUI development.
+A simple desktop-based Quiz Management System built using Java Swing, JDBC, and PostgreSQL. This project was developed as a college mini project to practice Java programming, database connectivity, and GUI development..
 
 ## Features
 
